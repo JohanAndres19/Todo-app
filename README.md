@@ -74,20 +74,20 @@ Pasos básicos para ejecutar los contenedores:
 2. Construir y levantar los servicios:
 
 ```
-docker-compose up --build -d
+docker compose up --build -d
 ```
 
 3. Ver logs (opcional):
 
 ```
-docker-compose logs -f api
-docker-compose logs -f frontend
+docker compose logs -f api
+docker compose logs -f frontend
 ```
 
 4. Parar y eliminar contenedores y red:
 
 ```
-docker-compose down
+docker compose down
 ```
 
 Ejemplo de `.env` (colócalo en la raíz del repo):
