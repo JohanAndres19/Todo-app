@@ -50,7 +50,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         </div>
 
 
-        <div className="relative">
+        {/*<div className="relative">
           <Calendar className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
           <input
             type="date"
@@ -58,7 +58,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             onChange={(e) => onDateFilterChange(e.target.value)}
             className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
           />
-        </div>
+        </div>*/}
       </div>
 
 
